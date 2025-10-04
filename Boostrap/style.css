@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  padding-top: 70px;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x700?text=Kopi+Senja') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
